@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1421039965 source:/home/zs/workspace/FaceJniC2/FaceJniC2.cpp
+	"FaceJniC2.h"
+	"FaceRecog.h"
+	"string.h"
+	"hdfs.h"
+	<fstream>
+
+1419927677 /home/zs/workspace/FaceJniC2/FaceJniC2.h
+	<jni.h>
+
+1311065595 /home/zs/hadoop-all/jdk1.6.0_27/include/jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1311065595 /home/zs/hadoop-all/jdk1.6.0_27/include/linux/jni_md.h
+
+1416298915 /home/zs/workspace/FaceJniC2/FaceRecog.cpp
+	"FaceRecog.h"
+
+1419927842 /home/zs/workspace/FaceJniC2/FaceRecog.h
+	"opencv2/core/core.hpp"
+	"opencv2/contrib/contrib.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<sys/types.h>
+	<dirent.h>
+	<unistd.h>
+	<stdio.h>
+	"cv.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	"string.h"
+
+1397211326 /usr/local/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1415712733 /home/zs/workspace/FaceJniC2/hdfs.h
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdint.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<jni.h>
+
+1416384784 source:/home/zs/workspace/FaceJniC2/main.cpp
+	"FaceJniC2.cpp"
+
+1416383226 /home/zs/workspace/FaceJniC2/FaceJniC2.cpp
+	"FaceJniC2.h"
+	<jni.h>
+	"FaceRecog.cpp"
+	<string.h>
+	"hdfs.h"
+
+1419929662 source:/home/zs/workspace/FaceJniC2/FaceRecog.cpp
+	"FaceRecog.h"
+

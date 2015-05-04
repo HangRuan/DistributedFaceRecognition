@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FaceJniC2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../workspace2/DistributedFaceRecog/lib/libFaceJniC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/libFaceJniC2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="/home/zs/hadoop-all/jdk1.6.0_27/include/linux" />
+			<Add directory="/home/zs/hadoop-all/jdk1.6.0_27/include" />
+			<Add directory="/usr/local/include/opencv" />
+			<Add directory="/usr/local/include/opencv2" />
+		</Compiler>
+		<Linker>
+			<Add library="/usr/local/lib/libopencv_calib3d.so" />
+			<Add library="/usr/local/lib/libopencv_contrib.so" />
+			<Add library="/usr/local/lib/libopencv_core.so" />
+			<Add library="/usr/local/lib/libopencv_features2d.so" />
+			<Add library="/usr/local/lib/libopencv_flann.so" />
+			<Add library="/usr/local/lib/libopencv_gpu.so" />
+			<Add library="/usr/local/lib/libopencv_highgui.so" />
+			<Add library="/usr/local/lib/libopencv_imgproc.so" />
+			<Add library="/usr/local/lib/libopencv_legacy.so" />
+			<Add library="/usr/local/lib/libopencv_ml.so" />
+			<Add library="/usr/local/lib/libopencv_nonfree.so" />
+			<Add library="/usr/local/lib/libopencv_objdetect.so" />
+			<Add library="/usr/local/lib/libopencv_ocl.so" />
+			<Add library="/usr/local/lib/libopencv_photo.so" />
+			<Add library="/usr/local/lib/libopencv_stitching.so" />
+			<Add library="/usr/local/lib/libopencv_superres.so" />
+			<Add library="/usr/local/lib/libopencv_video.so" />
+			<Add library="/usr/local/lib/libopencv_videostab.so" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhadoop.so" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhadoop.so.1" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhadoop.so.1.0.0" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhdfs.so" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhdfs.so.0" />
+			<Add library="/home/zs/hadoop-all/hadoop-0.23.11/lib/native/libhdfs.so.0.0.0" />
+		</Linker>
+		<Unit filename="FaceJniC2.cpp" />
+		<Unit filename="FaceJniC2.h" />
+		<Unit filename="FaceRecog.cpp" />
+		<Unit filename="FaceRecog.h" />
+		<Unit filename="hdfs.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
